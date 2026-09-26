@@ -1,0 +1,16 @@
+{
+  "path": "C:\\Users\\Abhinav Kumar\\Downloads\\archive (1)",
+  "file_size_bytes": 122260500,
+  "event_count": 10598771,
+  "window_count": 1300,
+  "feature_count": 24,
+  "first_timestamp": 0.0,
+  "last_timestamp": 10598771.0,
+  "stage_counts": {
+    "1": 10598771
+  },
+  "risk_min": 1.0,
+  "risk_max": 1.0,
+  "malformed_labels": 0,
+  "memory_strategy": "streaming windows with bounded samples; raw rows are not retained"
+}

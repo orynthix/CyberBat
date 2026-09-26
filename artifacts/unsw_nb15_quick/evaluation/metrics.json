@@ -1,0 +1,41 @@
+{
+  "checkpoint": "C:\\Users\\Abhinav Kumar\\Desktop\\CyberBat SIH\\artifacts\\unsw_nb15_quick\\world_model.pt",
+  "test_path": "C:\\Users\\Abhinav Kumar\\Downloads\\archive (2)\\UNSW_NB15_testing-set.parquet",
+  "samples": 16455,
+  "threshold": 0.5,
+  "world_model": {
+    "f1": 0.6919564453811029,
+    "precision": 0.6348402541202468,
+    "recall": 0.7603661226290251,
+    "fpr": 0.5368891295519155
+  },
+  "logistic_regression": {
+    "f1": 0.6235052076636235,
+    "precision": 0.7476102374344743,
+    "recall": 0.5347375385972651,
+    "fpr": 0.22160552321646135
+  },
+  "stage_accuracy": 0.2185353995745974,
+  "comparison": [
+    {
+      "metric": "f1",
+      "logistic_regression": 0.6235052076636235,
+      "world_model": 0.6919564453811029
+    },
+    {
+      "metric": "precision",
+      "logistic_regression": 0.7476102374344743,
+      "world_model": 0.6348402541202468
+    },
+    {
+      "metric": "recall",
+      "logistic_regression": 0.5347375385972651,
+      "world_model": 0.7603661226290251
+    },
+    {
+      "metric": "fpr",
+      "logistic_regression": 0.22160552321646135,
+      "world_model": 0.5368891295519155
+    }
+  ]
+}

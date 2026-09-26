@@ -1,0 +1,290 @@
+{
+  "data_assessment": {
+    "attack_supervision": "unknown",
+    "horizon_supervision_valid": false,
+    "interpretation": "row_order_label_replay_not_validated_as_temporal_forecasting",
+    "label_semantics": "binary_attack",
+    "normalization": "cache values restored to raw units then transformed with checkpoint training normalizer",
+    "verified_temporal_order": false,
+    "windowing": {
+      "method": "legacy_unknown"
+    }
+  },
+  "forecast_vs_actual": [
+    {
+      "f1": 0.75,
+      "fn": 0,
+      "fp": 2,
+      "fpr": 1.0,
+      "horizon": 1,
+      "missing_labels": 0,
+      "pr_auc": 0.7555555555555555,
+      "precision": 0.6,
+      "recall": 1.0,
+      "roc_auc": 0.5,
+      "samples": 5,
+      "stage_accuracy": null,
+      "stage_samples": 0,
+      "tn": 0,
+      "tp": 3
+    },
+    {
+      "f1": 0.5714285714285714,
+      "fn": 1,
+      "fp": 2,
+      "fpr": 1.0,
+      "horizon": 2,
+      "missing_labels": 0,
+      "pr_auc": 0.8666666666666667,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "roc_auc": 0.6666666666666666,
+      "samples": 5,
+      "stage_accuracy": null,
+      "stage_samples": 0,
+      "tn": 0,
+      "tp": 2
+    },
+    {
+      "f1": 0.5714285714285714,
+      "fn": 1,
+      "fp": 2,
+      "fpr": 1.0,
+      "horizon": 3,
+      "missing_labels": 0,
+      "pr_auc": 0.8666666666666667,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "roc_auc": 0.6666666666666666,
+      "samples": 5,
+      "stage_accuracy": null,
+      "stage_samples": 0,
+      "tn": 0,
+      "tp": 2
+    }
+  ],
+  "output": "C:\\Users\\Abhinav Kumar\\Desktop\\CyberBat SIH\\artifacts\\unsw_nb15_quick\\forecast_replay.json",
+  "predictions": [
+    {
+      "current_risk": 0.5277572870254517,
+      "current_stage": 1,
+      "current_stage_name": "Reconnaissance",
+      "origin_index": 11,
+      "trajectory": [
+        {
+          "actual_label": 0,
+          "actual_risk": 0,
+          "actual_stage": null,
+          "horizon": 1,
+          "predicted_risk": 0.9354022741317749,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 12
+        },
+        {
+          "actual_label": 0,
+          "actual_risk": 0,
+          "actual_stage": null,
+          "horizon": 2,
+          "predicted_risk": 0.9334404468536377,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 13
+        },
+        {
+          "actual_label": 0,
+          "actual_risk": 0,
+          "actual_stage": null,
+          "horizon": 3,
+          "predicted_risk": 0.9227321743965149,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 14
+        }
+      ],
+      "trend": "decreasing",
+      "trend_slope_per_step": -0.006335049867630004
+    },
+    {
+      "current_risk": 0.5289139747619629,
+      "current_stage": 1,
+      "current_stage_name": "Reconnaissance",
+      "origin_index": 12891,
+      "trajectory": [
+        {
+          "actual_label": 1,
+          "actual_risk": 1,
+          "actual_stage": null,
+          "horizon": 1,
+          "predicted_risk": 0.9553316831588745,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 12892
+        },
+        {
+          "actual_label": 1,
+          "actual_risk": 1,
+          "actual_stage": null,
+          "horizon": 2,
+          "predicted_risk": 0.967811644077301,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 12893
+        },
+        {
+          "actual_label": 1,
+          "actual_risk": 1,
+          "actual_stage": null,
+          "horizon": 3,
+          "predicted_risk": 0.9687204957008362,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 12894
+        }
+      ],
+      "trend": "increasing",
+      "trend_slope_per_step": 0.006694406270980778
+    },
+    {
+      "current_risk": 0.5392146706581116,
+      "current_stage": 1,
+      "current_stage_name": "Reconnaissance",
+      "origin_index": 25771,
+      "trajectory": [
+        {
+          "actual_label": 0,
+          "actual_risk": 0,
+          "actual_stage": null,
+          "horizon": 1,
+          "predicted_risk": 0.9580555558204651,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 25772
+        },
+        {
+          "actual_label": 0,
+          "actual_risk": 0,
+          "actual_stage": null,
+          "horizon": 2,
+          "predicted_risk": 0.9636167883872986,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 25773
+        },
+        {
+          "actual_label": 0,
+          "actual_risk": 0,
+          "actual_stage": null,
+          "horizon": 3,
+          "predicted_risk": 0.9650040864944458,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 25774
+        }
+      ],
+      "trend": "increasing",
+      "trend_slope_per_step": 0.003474265336990387
+    },
+    {
+      "current_risk": 0.5334447026252747,
+      "current_stage": 1,
+      "current_stage_name": "Reconnaissance",
+      "origin_index": 38651,
+      "trajectory": [
+        {
+          "actual_label": 1,
+          "actual_risk": 1,
+          "actual_stage": null,
+          "horizon": 1,
+          "predicted_risk": 0.9588625431060791,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 38652
+        },
+        {
+          "actual_label": 1,
+          "actual_risk": 1,
+          "actual_stage": null,
+          "horizon": 2,
+          "predicted_risk": 0.9686505794525146,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 38653
+        },
+        {
+          "actual_label": 1,
+          "actual_risk": 1,
+          "actual_stage": null,
+          "horizon": 3,
+          "predicted_risk": 0.9696850776672363,
+          "predicted_stage": 1,
+          "predicted_stage_name": "Reconnaissance",
+          "target_index": 38654
+        }
+      ],
+      "trend": "increasing",
+      "trend_slope_per_step": 0.005411267280578502
+    },
+    {
+      "current_risk": 0.5267372727394104,
+      "current_stage": 0,
+      "current_stage_name": "Benign",
+      "origin_index": 51531,
+      "trajectory": [
+        {
+          "actual_label": 1,
+          "actual_risk": 1,
+          "actual_stage": null,
+          "horizon": 1,
+          "predicted_risk": 0.6147326827049255,
+          "predicted_stage": 0,
+          "predicted_stage_name": "Benign",
+          "target_index": 51532
+        },
+        {
+          "actual_label": 1,
+          "actual_risk": 1,
+          "actual_stage": null,
+          "horizon": 2,
+          "predicted_risk": 0.45859265327453613,
+          "predicted_stage": 0,
+          "predicted_stage_name": "Benign",
+          "target_index": 51533
+        },
+        {
+          "actual_label": 1,
+          "actual_risk": 1,
+          "actual_stage": null,
+          "horizon": 3,
+          "predicted_risk": 0.4326797425746918,
+          "predicted_stage": 0,
+          "predicted_stage_name": "Benign",
+          "target_index": 51534
+        }
+      ],
+      "trend": "decreasing",
+      "trend_slope_per_step": -0.09102647006511684
+    }
+  ],
+  "provenance": {
+    "cache": "C:\\Users\\Abhinav Kumar\\Desktop\\CyberBat SIH\\data\\cache\\unsw_nb15",
+    "cache_files": {
+      "features_sha256": "f461c28a1d3514a8c8f1c4ea372380f45b5d0efa105b51121abe4f853a235156",
+      "labels_sha256": "405bc7f353138dea1a07829e4e1927aed63ef9e656b8474486ccf52a9557c7e0",
+      "metadata_sha256": "b734315362ca091750c64a59c653da8a573248b1170846699339f411510d9b58"
+    },
+    "checkpoint": "C:\\Users\\Abhinav Kumar\\Desktop\\CyberBat SIH\\artifacts\\unsw_nb15_quick\\world_model.pt",
+    "checkpoint_sha256": "81edf197e13425f5e52960c39d2b35bc0242bc2d8e5aace3a75160e4054be145"
+  },
+  "replay": {
+    "horizon": 3,
+    "label_semantics": "binary_attack",
+    "max_origins": 5,
+    "origin_selection": "evenly_spaced",
+    "origins_evaluated": 5,
+    "sequence_length": 12,
+    "step_seconds": 1.0,
+    "threshold": 0.5
+  },
+  "schema": "cyberbat.forecast-replay.v1"
+}

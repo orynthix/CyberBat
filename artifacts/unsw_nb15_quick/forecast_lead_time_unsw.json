@@ -1,0 +1,11 @@
+{
+  "dataset": "UNSW-NB15",
+  "status": "unavailable",
+  "reason": "The source Parquet files have no timestamps and the cache is ordered by file/row order. Attack-onset lead time is therefore not a valid chronological early-warning measurement.",
+  "supersedes": "The prior numeric lead-time calculation used synthetic row-order positions and must not be cited as measured chronological lead time.",
+  "required_for_valid_measurement": [
+    "Timestamped and chronologically ordered traffic windows",
+    "Sequential attack labels with a defined onset",
+    "Forecast alerts aligned to their actual issuance windows"
+  ]
+}

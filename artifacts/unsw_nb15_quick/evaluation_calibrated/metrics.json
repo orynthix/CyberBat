@@ -1,0 +1,62 @@
+{
+  "checkpoint": "C:\\Users\\Abhinav Kumar\\Desktop\\CyberBat SIH\\artifacts\\unsw_nb15_quick\\world_model.pt",
+  "test_path": "C:\\Users\\Abhinav Kumar\\Downloads\\archive (2)\\UNSW_NB15_testing-set.parquet",
+  "train_path": "C:\\Users\\Abhinav Kumar\\Downloads\\archive (2)\\UNSW_NB15_training-set.parquet",
+  "samples": 16455,
+  "threshold": 0.5,
+  "calibration_samples": 2000,
+  "calibrated_threshold": 0.31010702252388,
+  "world_model": {
+    "f1": 0.6919564453811029,
+    "precision": 0.6348402541202468,
+    "recall": 0.7603661226290251,
+    "fpr": 0.5368891295519155,
+    "roc_auc": 0.658752994462249,
+    "pr_auc": 0.7440750903784272,
+    "tn": 3421,
+    "fp": 3966,
+    "fn": 2173,
+    "tp": 6895
+  },
+  "world_model_calibrated": {
+    "f1": 0.6697329516121462,
+    "precision": 0.5829724650706757,
+    "recall": 0.7868328187031319,
+    "fpr": 0.6909435494788141,
+    "roc_auc": 0.658752994462249,
+    "pr_auc": 0.7440750903784272,
+    "tn": 2283,
+    "fp": 5104,
+    "fn": 1933,
+    "tp": 7135
+  },
+  "logistic_regression": {
+    "f1": 0.5452815403559834,
+    "precision": 0.5536485564901114,
+    "recall": 0.5371636524040583,
+    "fpr": 0.5316095844050359
+  },
+  "stage_accuracy": 0.2185353995745974,
+  "comparison": [
+    {
+      "metric": "f1",
+      "logistic_regression": 0.5452815403559834,
+      "world_model": 0.6919564453811029
+    },
+    {
+      "metric": "precision",
+      "logistic_regression": 0.5536485564901114,
+      "world_model": 0.6348402541202468
+    },
+    {
+      "metric": "recall",
+      "logistic_regression": 0.5371636524040583,
+      "world_model": 0.7603661226290251
+    },
+    {
+      "metric": "fpr",
+      "logistic_regression": 0.5316095844050359,
+      "world_model": 0.5368891295519155
+    }
+  ]
+}
